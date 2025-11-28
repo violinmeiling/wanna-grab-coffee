@@ -12,7 +12,7 @@ So, I built a text message app that lets you quickly log a new person as soon as
 
 ## Demo
 
-
+Demo and explanation available at: https://youtu.be/q4nKSMxJfTc
 
 ## How to use
 
@@ -65,6 +65,8 @@ So, I built a text message app that lets you quickly log a new person as soon as
 
 Consult `.env.example for reference`
 
+Note: Since my Macbook and iPhone are linked via iCloud, I needed to make sure that Messages was running on my laptop while I texted myself on my phone for this app to work.
+
 ### Google Calendar API
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
@@ -77,7 +79,7 @@ Consult `.env.example for reference`
 
 1. Visit [OpenAI Platform](https://platform.openai.com/api-keys)
 2. Create a new API key
-3. Add `OPENAI_API_KEY` to your `.env`
+3. Add API key to `.env`
 
 ## Usage
 
@@ -117,18 +119,6 @@ src/
 └── index.ts                  # Entry point
 ```
 
-## Configuration
-
-### Environment Variables
-
-```bash
-# OpenAI API
-OPENAI_API_KEY="sk-your-openai-key"
-
-# Database (optional - uses default if not specified)
-DATABASE_PATH="./data/coffee_network.db"
-```
-
 ## Troubleshooting
 
 ### Permission Issues
@@ -148,10 +138,9 @@ DATABASE_PATH="./data/coffee_network.db"
 
 ## Privacy & Security
 
-- **Local Storage**: All contacts stored in local SQLite database
-- **No External Data**: Contact info never sent to external services
-- **API Usage**: Only sends anonymous context to AI for message generation
-- **iMessage Access**: Read-only access to your message database
+- All contacts stored in local SQLite database
+- Details about the person you met are not sent to OpenAI/any other parties
+- Read-only access to your message database
 
 ## Development
 
@@ -167,6 +156,9 @@ npm run build
 
 # Run tests
 npm test
+
+# Start in terminal
+npm start
 ```
 
 ## Contributing
