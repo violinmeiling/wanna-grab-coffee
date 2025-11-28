@@ -33,7 +33,7 @@ Demo and explanation available at: https://youtu.be/q4nKSMxJfTc
 
 1. **Clone and Install**
    ```bash
-   git clone [your-repo-url]
+   git clone https://github.com/violinmeiling/wanna-grab-coffee.git
    cd wanna-grab-coffee
    npm install
    ```
@@ -133,7 +133,6 @@ src/
 
 ### Message Not Parsing
 - Use exact format: "met [Name] at [Event], [optional context]"
-- Check for typos in contact names
 - Use "summary" command to verify app is working
 
 ## Privacy & Security
