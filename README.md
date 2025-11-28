@@ -63,13 +63,15 @@ So, I built a text message app that lets you quickly log a new person as soon as
 
 ## Setup Guide
 
+Consult `.env.example for reference`
+
 ### Google Calendar API
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Create a new project or select existing
 3. Enable the Google Calendar API
 4. Create credentials (OAuth 2.0 Client ID) - choose "Desktop application"
-5. Download the credentials JSON file and save as `credentials.json` in project root
+5. Fill in the required fields in `.env`
 
 ### OpenAI API
 
