@@ -2,11 +2,9 @@
 
 Never miss your next connection
 
-Developed by violinmeiling for the Photon team 🔥
-
 ## Overview
 
-You know when you meet a really interesting person at a party, and then you get their number, and you two are like, "Yo, we should get coffee sometime", and then you just...never follow up with them? It's especially bad when you've also had a few drinks. The last thing you want is to meet the person who could potentially be your next greatest networking connection (or date (or both, why not?)) and totally forget about them when you wake up in the morning. 
+You know when you meet a really interesting person at a party, and then you get their number, and you two are like, "Yo, we should get coffee sometime", and then you just...never follow up with them? The last thing you want is to meet the person who could potentially be your next greatest networking connection and totally forget to reach out to them the next morning. 
 
 So, I built a text message app that lets you quickly log a new person as soon as you meet them, and you can request a reminder text + message draft for whenever you've sobered up and are ready to send that coffee chat follow-up.
 
